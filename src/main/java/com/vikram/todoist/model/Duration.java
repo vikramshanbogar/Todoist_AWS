@@ -1,4 +1,4 @@
-package com.vikram.todoistaws.model;
+package com.vikram.todoist.model;
 
 public class Duration{
     public int amount;

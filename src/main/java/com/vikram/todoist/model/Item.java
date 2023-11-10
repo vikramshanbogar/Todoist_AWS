@@ -1,19 +1,12 @@
-package com.vikram.todoistaws.model;
+package com.vikram.todoist.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table
 @Data
 public class Item {
 
     String completed_at;
     String content;
-    @Id
     Long id;
     String meta_data;
     Long project_id;
